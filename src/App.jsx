@@ -3,7 +3,7 @@ import Footer from './Footer'
 import Food from './Food'
 import Card from './Card'
 import Student from './Student'
-import UserGreeting from './UserGreeting'
+import UserGreeting from './UserGreeting.jsx'
 
 function App() {
   return(
@@ -18,7 +18,7 @@ function App() {
       <Student name="Ravi" age={12} isStudent={true}/>
       <Student name="Bachan" age={20} isStudent={true}/> */}
 
-      <UserGreeting isLoggedIn = {true} username="SaiTeja"/>
+      <UserGreeting isLoggedIn={true} username="SaiTeja"/>
     </>
     
   );
