@@ -13,12 +13,12 @@ function App() {
       <Footer/> */}
 
       {/* <Card/> */}
-      {/* <Student name="Saiteja" age={23} isStudent={true}/>
+      <Student name="Saiteja" age={23} isStudent={true}/>
       <Student name="Ramu" age={50} isStudent={false}/>
       <Student name="Ravi" age={12} isStudent={true}/>
-      <Student name="Bachan" age={20} isStudent={true}/> */}
+      <Student name="Bachan" age={20} isStudent={true}/>
 
-      <UserGreeting isLoggedIn={true} username="SaiTeja"/>
+      {/* <UserGreeting isLoggedIn={true} username="SaiTeja"/> */}
     </>
     
   );

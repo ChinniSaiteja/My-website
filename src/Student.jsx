@@ -15,7 +15,7 @@ function Student(props){
 // if we declare diff datatype, their will be error in the console only
 Student.propTypes = {
     name: PropTypes.string,
-    age: ProPTypes.number,
+    age: PropTypes.number,
     isStudent: PropTypes.bool
 }
 export default Student;
