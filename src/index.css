@@ -15,3 +15,11 @@ img{
     margin: 5px;
     display: inline-block;
 }
+
+.student{
+    border: 1px solid black;
+    border-radius: 7px;
+}
+.student p{
+    margin: 2px;
+}
