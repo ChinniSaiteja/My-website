@@ -37,3 +37,26 @@ img{
     border-style: none;
     box-shadow: 5px 5px 5px rgb(238, 61, 48);
 }
+
+.items-category{
+    font-size: 2.5em;
+    text-align: center;
+    background-color: aquamarine;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.items-list li{
+    font-size: 1.5em;
+    list-style: none;
+}
+
+.items-category:hover{
+    background-color: brown;
+    cursor: pointer;
+}
+
+.items-list li:hover{
+    color: cadetblue;
+    cursor: pointer;
+}
