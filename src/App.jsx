@@ -5,6 +5,8 @@ import Card from './Card'
 import Student from './Student'
 import UserGreeting from './UserGreeting.jsx'
 import List from './List.jsx'
+import Button from './Button.jsx'
+import ProfilePic from './ProfilePic.jsx'
 
 function App() {
 
@@ -36,8 +38,10 @@ function App() {
 
       {/* <UserGreeting isLoggedIn={false} username="SaiTeja"/> */}
 
-      <List items = {fruits} category = "Fruits"/>
-      <List items = {vegetables} category = "Vegetables"/>
+      {/* <List items = {fruits} category = "Fruits"/>
+      <List items = {vegetables} category = "Vegetables"/> */}
+
+      <ProfilePic/>
     </>
     
   );
