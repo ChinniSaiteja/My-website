@@ -8,6 +8,7 @@ import List from './List.jsx'
 import Button from './Button.jsx'
 import ProfilePic from './ProfilePic.jsx'
 import Counter from './Counter.jsx'
+import Ran from './Ran.jsx'
 
 function App() {
 
@@ -44,7 +45,9 @@ function App() {
 
       {/* <ProfilePic/> */}
 
-      <Counter/>
+      {/* <Counter/> */}
+
+      <Ran/>
     </>
     
   );
