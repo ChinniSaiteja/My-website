@@ -7,6 +7,7 @@ import UserGreeting from './UserGreeting.jsx'
 import List from './List.jsx'
 import Button from './Button.jsx'
 import ProfilePic from './ProfilePic.jsx'
+import Counter from './Counter.jsx'
 
 function App() {
 
@@ -41,7 +42,9 @@ function App() {
       {/* <List items = {fruits} category = "Fruits"/>
       <List items = {vegetables} category = "Vegetables"/> */}
 
-      <ProfilePic/>
+      {/* <ProfilePic/> */}
+
+      <Counter/>
     </>
     
   );
